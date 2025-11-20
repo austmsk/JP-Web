@@ -44,5 +44,6 @@ next-env.d.ts
 .idea
 
 #other
+/public/Photos
 *.iml
 

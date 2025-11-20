@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
-import Sidebar from "../components/sidebar";
 import { FlipLink } from "../components/FlipLink";
+import Scroll from "../components/Carousel";
 
 
 
@@ -10,6 +10,8 @@ export default function Home() {
       <div className={"max-h-screen flex flex-col"}>
 
         <FlipLink/>
+          <Scroll />
+          <Scroll />
 
       </div>
 
